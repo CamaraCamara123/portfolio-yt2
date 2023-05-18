@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import Header from "./components/Banner/Header";
 import ProfComponent from "./components/Banner/ProfComponent";
-import Clients from "./components/Clients/Clients";
+import Technologie from "./components/Technologies/Technologie";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
-import Services from "./components/Diplomes/Diplomes";
+import Diplomes from "./components/Diplomes/Diplomes";
 function App() {
   return (
     <Container>
@@ -12,11 +12,11 @@ function App() {
         <Header />
         <ProfComponent />
       </Banner>
-      <Services />
+      <Diplomes />
       <LightColor>
         <Projects />
       </LightColor>
-      <Clients />
+      <Technologie />
       <LightColor>
         <Footer />
       </LightColor>

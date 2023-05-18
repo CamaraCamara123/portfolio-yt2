@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import Slider from 'react-slick'
 import styled from 'styled-components'
-import ClientSlider from './ClientSlider';
+import TechnologieSlider from './TechnologieSlider';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Slide } from 'react-awesome-reveal';
 
@@ -79,7 +79,7 @@ const Clients = () => {
     const arrowRef = useRef(null);
     let clientDisc = "";
     clientDisc = techno.map((item, i) => (
-        <ClientSlider item={item} key={i} />
+        <TechnologieSlider item={item} key={i} />
     ))
     return (
         <Container id='client'>
