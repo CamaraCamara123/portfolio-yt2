@@ -5,7 +5,7 @@ import ClientSlider from './ClientSlider';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Slide } from 'react-awesome-reveal';
 
-let clients = [
+let techno = [
     {
         name: "React js",
         position: "web langage",
@@ -78,7 +78,7 @@ var settings = {
 const Clients = () => {
     const arrowRef = useRef(null);
     let clientDisc = "";
-    clientDisc = clients.map((item, i) => (
+    clientDisc = techno.map((item, i) => (
         <ClientSlider item={item} key={i} />
     ))
     return (
