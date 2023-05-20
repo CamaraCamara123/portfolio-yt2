@@ -20,22 +20,22 @@ const ProfComponent = () => {
             d'Agadir. J'ai integré l'Ecole Nationale des Sciences Appliquées d'El Jadida par la passerelle 2022/2023. Je suis actuellement
             en première année de cycle ingenieur Ingénerie Informatique et Technologies Emmergentes (2ITE).
           </p>
-          <button>En savoir plus</button>
+          {/* <button>En savoir plus</button> */}
           <Social>
             <p>Visitez mon</p>
             <div className="social-icons">
               <span>
-                <a href="/">
+                <a href="/https://instagram/aboudramane.camara.7">
                   <AiOutlineInstagram />
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a href="/https://web.facebook.com/?_rdc=1&_rdr">
                   <FaFacebook />
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a href="/https://www.linkedin.com/in/aboudramane-camara-8a87b6244/">
                   <FaLinkedinIn />
                 </a>
               </span>

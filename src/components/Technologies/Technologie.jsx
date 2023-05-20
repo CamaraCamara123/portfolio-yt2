@@ -38,6 +38,13 @@ let techno = [
         disc: `HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript (JS) are three fundamental technologies used 
         together to create and enhance web pages and web applications.`
     },
+    {
+        name: "Java",
+        position: "programmation",
+        img_url: "images/java.png",
+        stars: 5,
+        disc: `ava est une technique informatique développée initialement par Sun Microsystems puis acquise par Oracle à la suite du rachat de l'entreprise.`
+    },
 ]
 var settings = {
     dots: true,
