@@ -25,17 +25,17 @@ const ProfComponent = () => {
             <p>Visitez mon</p>
             <div className="social-icons">
               <span>
-                <a href="https://instagram/aboudramane.camara.7" target="_blank">
+                <a href="https://instagram/aboudramane.camara.7">
                   <AiOutlineInstagram />
                 </a>
               </span>
               <span>
-                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr">
                   <FaFacebook />
                 </a>
               </span>
               <span>
-                <a href="https://www.linkedin.com/in/aboudramane-camara-8a87b6244/" target="_blank">
+                <a href="https://www.linkedin.com/in/aboudramane-camara-8a87b6244/">
                   <FaLinkedinIn />
                 </a>
               </span>
